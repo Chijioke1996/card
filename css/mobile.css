@@ -1,13 +1,40 @@
+
+body{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+}
+
 .top{
-    margin-top: -80%;
-    margin-left: -40%;
+    height: 10px;
+    margin-top: -480%;
+   margin-right: 430%;
+    position: fixed;
 }
 
 .bott{
+    height: 0px;
     margin-right: 29%;
-    margin-top: 20%;
+    margin-top: 30%;
+    position: fixed;
 }
 
 .box{
-    margin-left: 20%;
+   
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   
+     
+}
+
+.cont {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
 }
