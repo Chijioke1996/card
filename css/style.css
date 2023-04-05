@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:wght@300;400;500&family=Outfit:wght@400;700&family=Poppins:wght@300&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+}
+
+.top {
+    height: 200px;
+    width: 35%;
+    float: left;
+    margin-top: -43%;
+    margin-left: -17%;
+
+
+}
+
+.bott {
+    height: 200px;
+    width: 35%;
+    float: right;
+    margin-right: 12%;
+    margin-top: 10%;
+
+}
+
+.box {
+    height: 375px;
+    width: 350px;
+    margin-left: 39.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    display: block;
+
+}
+
+.card {
+    height: 137px;
+    width: 350px;
+    background: url(../images/bg-pattern-card.svg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.circle {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: white;
+    z-index: 1;
+    margin-top: -17%;
+    padding-top: 2%;
+    margin-left: 35%;
+
+}
+
+.circles {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: url(../images/image-victor.jpg) no-repeat center center/ cover;
+    margin-left: 4%;
+
+}
+
+.box2 {
+
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+
+   
+}
+
+h1 {
+
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    margin: 7px;
+    margin-left: 25px;
+    color: hsl(229, 23%, 23%);
+}
+
+h1 span {
+    font-weight: 700;
+    margin-left: 8px;
+    color: hsl(0, 0%, 59%);
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+}
+
+.dash{
+    width: 350px;
+    height: 1px;
+    background: hsl(0, 0%, 59%);
+    margin-top: 37px;
+
+}
+
+.final{
+    display: block;
+    width: 350px;
+}
+
+.no1{
+    width: 105px;
+    font-weight: 700;
+    margin: 0px;
+    display: inline-block;
+    color:hsl(229, 23%, 23%) ;
+}
+.no2{
+    width: 105px;
+    margin: 0px;
+    display: inline-block;
+    color:hsl(229, 23%, 23%) ;
+    font-weight: 700;
+}
+.no3{
+    width: 105px;
+    margin: 0px;
+    display: inline-block;
+    color:hsl(229, 23%, 23%) ;
+    font-weight: 700;
+}
+
+.sean{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+
+
