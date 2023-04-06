@@ -26,10 +26,7 @@ body{
    
     align-items: center;
     justify-content: center;
-    position: absolute;
-   
-   
-     
+    position: absolute;   
 }
 
 .cont {
@@ -38,5 +35,6 @@ body{
     justify-content: center;
     position: relative;
     margin: auto;
+    margin-top: 343px;
    
 }
